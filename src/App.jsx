@@ -1,5 +1,4 @@
 import React from 'react'
-import { assets } from './assets/assets'
 import { Route, Routes } from 'react-router-dom'
 import Home from "./pages/Home/Home"
 
@@ -8,7 +7,7 @@ const App = () => {
     <>
       <div className="app">
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='pop-rock-crystal' element={<Home />} />
         </Routes>
       </div>
     </>
