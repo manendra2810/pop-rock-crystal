@@ -31,8 +31,8 @@ const BestPrice = () => {
                 <div className="circle-2">
                   <img src={assets.rock_2} alt="" />
                 </div>
-              </div>
-            </div>
+              </div> 
+            </div> 
           </div>
         </div>
 

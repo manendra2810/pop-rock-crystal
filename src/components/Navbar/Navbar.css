@@ -39,7 +39,7 @@
     font-weight: 500;
     line-height: 30px;
     pointer-events: auto;
-    z-index: 100;
+    z-index: 100; 
 }
 .list-item:hover{
     cursor: pointer;
@@ -63,4 +63,17 @@
 .basket-icon{
     text-align: center;
     width: 30px;
+}
+
+@media (max-width: 600px) {
+    .navbar-menu{
+        display: none;
+    }
+    .navbar{
+        padding: 30px 12px 0px 12px;
+        justify-content: space-between;
+    }
+    .logo-box{
+        flex: 2;
+    }
 }

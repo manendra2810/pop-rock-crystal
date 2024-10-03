@@ -38,7 +38,7 @@
 }
 .left span, h2, p{
     color: #31546D;
-}
+} 
 .left .span-1{
     font-size: 40px;
     line-height: 65px;
@@ -48,6 +48,7 @@
     font-size: 64px;
     line-height: 65px;
     font-weight: 700;
+    text-align: end;
 }
 .price{
     display: flex;
@@ -123,4 +124,71 @@
 .circle-2{
     width: 364px;
     height: 364px;
+}
+
+
+@media (max-width: 600px) {
+    .center-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 92px;
+    }
+    .left {
+        align-items: center;
+        text-align: center;
+        margin-left: 0px;
+        /* right: -68px; */
+    }
+    .left .span-1 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .left h2 {
+        font-size: 48px;
+        line-height: 54px;
+        text-align: center;
+    }
+    .price {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .price :nth-child(1) {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .price :nth-child(2) {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .left p {
+        width: 80%;
+        text-align: center;
+    }
+    .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: auto;
+        height: auto;
+        padding: 0px 12px;
+    }
+
+    .bg-img {
+        background-size: cover;
+        width: 364px;
+        height: 364px;
+    }
+    .circle-1 {
+        width: 280px;
+        height: 280px;
+    }
+    .circle-2 {
+        width: 190px;
+        height: 190px;
+    }
+    .circle-2 img{
+        width: 128px;
+    }
 }

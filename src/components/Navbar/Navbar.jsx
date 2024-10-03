@@ -17,7 +17,7 @@ const Navbar = () => {
                 <Link to="/" className='list-item'>About Us</Link>
                 <Link to="/" className='list-item'>Help</Link>
             </ul>
-            <div className="basket-box">
+            <div className="basket-box"> 
                 <div className="count-box">00</div>
                 <div className="basket-icon">
                     <img src={assets.basket_icon} alt="" />

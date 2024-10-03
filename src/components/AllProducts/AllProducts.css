@@ -15,7 +15,7 @@
     border-radius: 24px;
     border: none;
     /* outline: none; */
-    margin: auto;
+    margin: auto; 
     background-color: #F2F2F2;
 }
 .filter-box{
@@ -44,4 +44,26 @@
     flex-wrap: wrap;
     gap: 16px;
     margin-top: 48px;
+}
+
+
+@media (max-width: 600px) {
+    .all-products {
+        margin: 88px 12px 0px 12px;
+    }
+    .heading h2 {
+        font-size: 30px;
+        line-height: 34px;
+        margin-bottom: 13px;
+    }
+    .filter-box {
+        flex-direction: column;
+        gap: 16px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 38px;
+    }
+    .all-cart-container {
+        margin-top: 30px;
+    }
 }

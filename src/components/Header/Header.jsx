@@ -20,7 +20,7 @@ const Header = () => {
       console.log("plusSlidesIndex")
       return newIndex;
     });
-  };
+  }; 
 
   const currentSlide = (n) => {
     console.log("plusSlidesIndex3")
@@ -54,6 +54,7 @@ const Header = () => {
                   </div>
                 </div>
               ))}
+              <div className="new-tag">New lot</div>
             </div>
             <br/>
 
@@ -64,7 +65,6 @@ const Header = () => {
               ))}
               <a className="next" onClick={()=>plusSlides(1)}>&#10095;</a>
             </div>
-            <div className="new-tag">New lot</div>
           </div>
 
         </div>
