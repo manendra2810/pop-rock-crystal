@@ -1,0 +1,9 @@
+.button button{
+    padding: 15px 45px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,126 @@
+.best-price-main-container{
+    height: auto;
+    width: 100%; 
+    background: url('../../assets/bg_blue2.png') no-repeat center center;
+    background-size: cover; 
+    position: relative;
+    z-index: -200;
+    overflow: hidden;
+}
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 100%; 
+    background: url('../../assets/bg_white2.svg') no-repeat center center;
+    background-size: cover;
+    z-index: -100;
+}
+.view-all-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-container{
+    display: flex;
+    padding-bottom: 44px;
+}
+.left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    flex: 1;
+    margin-left: 50px;
+    /* right: -68px; */
+}
+.left span, h2, p{
+    color: #31546D;
+}
+.left .span-1{
+    font-size: 40px;
+    line-height: 65px;
+    font-weight: 400;
+}
+.left h2{
+    font-size: 64px;
+    line-height: 65px;
+    font-weight: 700;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 30px;
+}
+.price :nth-child(1){
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #41A0B7;
+}
+.price :nth-child(1) hr{
+    position: relative;
+    background-color: #41A0B7;
+    border: none;
+    height: 2px;
+    bottom: 15px;
+}
+.price :nth-child(2){
+    font-size: 70px;
+    line-height: 89px;
+    font-weight: 700;
+    color: #E35B3E;
+}
+.left p{
+    width: 72%;
+    text-align: end;
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #31546D;
+}
+.button{
+    margin-top: 45px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 734px;
+    height: 734px;
+    position: relative;
+    /* left: 30px; */
+}
+.bg-img{
+    position: relative;
+    background: url('../../assets/ellipse-9.png') no-repeat center center;
+    background-size: cover; 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.circle-1, .circle-2{
+    box-shadow: 0px 4px 50px 0px #788F9C40;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.circle-1{
+    width: 570px;
+    height: 570px;
+}
+.circle-2{
+    width: 364px;
+    height: 364px;
+}
