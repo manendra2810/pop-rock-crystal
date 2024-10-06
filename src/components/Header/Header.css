@@ -4,8 +4,6 @@
     background: url('../../assets/bg_blue1.png') no-repeat center center;
     background-size: cover; 
     position: relative;
-    z-index: -200;
-    pointer-events: auto;
 }
 .header-center-container{
     background: url('../../assets/bg_white1.svg') no-repeat bottom;
@@ -13,8 +11,6 @@
     height: 100%;
     width: 100%; 
     background-size: contain;
-    z-index: -100;
-    pointer-events: auto;
 }
  
 .hero-section{
@@ -86,6 +82,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    pointer-events: auto;
 }
 .prev, .next {
     cursor: pointer;
@@ -99,6 +96,7 @@
 }
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
+    cursor: pointer;
 }
 .text{
     display: flex;
@@ -147,7 +145,6 @@
     font-size: 16px;
     color: #317189;
 }
-
 .new-tag{
     position: absolute;
     top: 90px;
@@ -162,7 +159,7 @@
     padding: 8px 20px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-  }
+}
 
 @keyframes fade {
     from {opacity: .4}

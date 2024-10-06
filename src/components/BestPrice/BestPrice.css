@@ -4,7 +4,6 @@
     background: url('../../assets/bg_blue2.png') no-repeat center center;
     background-size: cover; 
     position: relative;
-    z-index: -200;
     overflow: hidden;
 }
 .inner-container{
@@ -15,7 +14,6 @@
     width: 100%; 
     background: url('../../assets/bg_white2.svg') no-repeat center center;
     background-size: cover;
-    z-index: -100;
 }
 .view-all-button{
     display: flex;
@@ -34,7 +32,6 @@
     align-items: end;
     flex: 1;
     margin-left: 50px;
-    /* right: -68px; */
 }
 .left span, h2, p{
     color: #31546D;
@@ -95,7 +92,6 @@
     width: 734px;
     height: 734px;
     position: relative;
-    /* left: 30px; */
 }
 .bg-img{
     position: relative;
@@ -137,7 +133,6 @@
         align-items: center;
         text-align: center;
         margin-left: 0px;
-        /* right: -68px; */
     }
     .left .span-1 {
         font-size: 30px;
@@ -174,7 +169,6 @@
         height: auto;
         padding: 0px 12px;
     }
-
     .bg-img {
         background-size: cover;
         width: 364px;

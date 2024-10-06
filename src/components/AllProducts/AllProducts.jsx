@@ -11,6 +11,19 @@ const AllProducts = () => {
     text2: "18.99$",
   }));
 
+  // const [cartIndex, setCartIndex] = useState(0);
+
+  // const plusSlides = (n) => {
+  //   setSlideIndex((prevIndex) => {
+  //     const newIndex = (prevIndex + n + images.length) % images.length;
+  //     return newIndex;
+  //   });
+  // }; 
+
+  // const currentSlide = (n) => {
+  //   setSlideIndex(n);
+  // };
+
   return (
     <div className='all-products'>
       <div className="all-products-main-container">

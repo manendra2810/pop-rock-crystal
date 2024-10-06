@@ -7,23 +7,20 @@ import Button from '../Button/Button';
 const Header = () => {
   const images = Array.from({ length: 7 }, (_, index) => ({
     src: assets.rock_1, // Ensure this is correct
-    text1: 'CRYSTAL AGATE PHONE GRIP',
-    text2: index,
+    text1: 'CRYSTAL AGATE PHONE GRIP ',
+    text2: " - 18.99$",
   }));
 
   const [slideIndex, setSlideIndex] = useState(0);
 
   const plusSlides = (n) => {
-    console.log("plusSlidesIndex0")
     setSlideIndex((prevIndex) => {
       const newIndex = (prevIndex + n + images.length) % images.length;
-      console.log("plusSlidesIndex")
       return newIndex;
     });
   }; 
 
   const currentSlide = (n) => {
-    console.log("plusSlidesIndex3")
     setSlideIndex(n);
   };
 
@@ -41,7 +38,7 @@ const Header = () => {
               <Button className="hero-button" text={"SHOP NOW"} bg_color={"white"} color={"#317189"} border={"none"}/>
               {/* <a>about us</a> */}
             </div>
-          </div>
+          </div> 
 
           <div className="hero-right">
             <div className="slideshow-container">
@@ -61,6 +58,10 @@ const Header = () => {
             <div className='slider-count-box'>
               <a className="prev" onClick={()=>plusSlides(-1)}>&#10094;</a>
               {images.map((_, index)=>(
+                slideIndex === index 
+                ? 
+                <span key={index} className="dot active" onClick={()=>currentSlide(index)}></span>
+                : 
                 <span key={index} className="dot" onClick={()=>currentSlide(index)}></span>
               ))}
               <a className="next" onClick={()=>plusSlides(1)}>&#10095;</a>
